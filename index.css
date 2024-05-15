@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.heading h1{
+    font-size: 150px;
+    color: rgb(80, 244, 77);
+    font-weight: bolder;
+
+}
+.heading p{
+    font-size: 95px;
+    font-style: italic;
+    color:aqua;
+    text-decoration: underline;
+}
+.heading{
+    padding: 70px 0;
+    text-align: center;
+}
+.main{
+    background-image: url(https://img.freepik.com/premium-photo/world-photography-day-photography-studio_772412-2103.jpg?w=826);
+    height: 100vh;
+    background-size: cover;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.footer{
+
+
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    display: flex;
+    margin-left: 35%;
+    margin-right: 35%;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    margin-top: 30px;
+    height: 100px;
+    width: 150px;
+    border-radius: 50px;
+    background-color: rgb(160, 216, 249);
+    color: white;
+    border-width: 5px;
+    font-size: 32px;
+}
+.parent{
+    background-color: rgb(253, 252, 251);
+    height: 50px;
+    display: grid;
+    align-items: center;
+    justify-content: center; 
+    border-bottom-left-radius: 20px; 
+    border-bottom-right-radius: 20px;
+}
+.sub{
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 100px;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+}
+.menu{
+    background-color: rgb(252, 173, 137);
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.services{
+    background-color: rgb(247, 247, 249);
+    height: 600px;
+    width: 1500px;
+    border-radius: 2em;
+    display: flex;  
+}
+.box{
+    background-color: antiquewhite;
+    height: 250px;
+    width: 350px;
+    border: 2px solid white;
+    margin: 1em;
+    border-radius: 2em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.sub1{
+    display: flex;
+    position: relative;
+    bottom: 350px;
+    left: 90px;
+  
+
+}
+.box1{
+ 
+    background-color: antiquewhite;
+    height: 250px;
+    width: 350px;
+    border: 2px solid white;
+    margin: 1em;
+    border-radius: 2em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  
+}
+.bt2{
+    background-color: greenyellow;
+    background: linear-gradient(to left,rgb(141, 252, 89) 20%,rgb(15, 134, 13) 80%); 
+ 
+    
+ }
+ .bt3{
+     background-color: lightblue;
+     background: linear-gradient(to left,rgb(75, 75, 245) 20%,rgb(154, 154, 249) 80%); 
+ 
+  }
+  .bt4{
+     background-color: skyblue;
+     background: linear-gradient(to left, rgb(134, 209, 244) 20%,rgb(109, 205, 247) 80%); 
+ 
+  }
+  .bt5{
+     background-color: pink;
+     background: linear-gradient(to right,rgb(249, 157, 243) 20%,rgb(176, 40, 106) 80%); 
+ 
+  }
+  .bt6{
+     background-color: orangered;
+     background: linear-gradient(to left,rgb(249, 145, 42) 20%,rgb(251, 53, 53) 80%); 
+ 
+  }
+  .bt7{
+     background-color: blueviolet;
+     background: linear-gradient(to left,rgb(57, 150, 225) 20%,rgb(158, 181, 249) 80%); 
+ 
+  }
+  p{
+     color: rgb(195, 45, 45);
+     font-size: 2em;
+     text-align: center;
+  }
